@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TextRecognizerFromImage/static/css/main.366118b4.chunk.css",
-    "main.js": "/TextRecognizerFromImage/static/js/main.e6e235ac.chunk.js",
-    "main.js.map": "/TextRecognizerFromImage/static/js/main.e6e235ac.chunk.js.map",
+    "main.js": "/TextRecognizerFromImage/static/js/main.bb2fbb2d.chunk.js",
+    "main.js.map": "/TextRecognizerFromImage/static/js/main.bb2fbb2d.chunk.js.map",
     "runtime-main.js": "/TextRecognizerFromImage/static/js/runtime-main.4afede72.js",
     "runtime-main.js.map": "/TextRecognizerFromImage/static/js/runtime-main.4afede72.js.map",
     "static/js/2.5098d7df.chunk.js": "/TextRecognizerFromImage/static/js/2.5098d7df.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4afede72.js",
     "static/js/2.5098d7df.chunk.js",
     "static/css/main.366118b4.chunk.css",
-    "static/js/main.e6e235ac.chunk.js"
+    "static/js/main.bb2fbb2d.chunk.js"
   ]
 }
