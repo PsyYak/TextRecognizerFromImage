@@ -1,1 +1,1 @@
-# Text Recognizing from Image using js
+# Text Recognizing from Image using React
