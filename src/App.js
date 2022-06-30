@@ -11,7 +11,7 @@ function App() {
     // log the actual file that was uploaded by the user
    //console.log(e.target.files[0]);
    // make sure user using the extenstions we want
-   if(e.target.type !== 'jpg' || e.target.type !== 'png' || e.target.type !== 'jpeg'){
+   if(e.target.type !== 'image/jpg' || e.target.type !== 'image/png' || e.target.type !== 'image/jpeg'){
      alert("Wrong file extention");
      e.target.value = null;
    }else{
