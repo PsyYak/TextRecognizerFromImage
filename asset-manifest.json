@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/PsyYak/TextRecognizerFromImage/static/css/main.366118b4.chunk.css",
-    "main.js": "/PsyYak/TextRecognizerFromImage/static/js/main.e6e235ac.chunk.js",
-    "main.js.map": "/PsyYak/TextRecognizerFromImage/static/js/main.e6e235ac.chunk.js.map",
-    "runtime-main.js": "/PsyYak/TextRecognizerFromImage/static/js/runtime-main.e8c60719.js",
-    "runtime-main.js.map": "/PsyYak/TextRecognizerFromImage/static/js/runtime-main.e8c60719.js.map",
-    "static/js/2.e0deb03a.chunk.js": "/PsyYak/TextRecognizerFromImage/static/js/2.e0deb03a.chunk.js",
-    "static/js/2.e0deb03a.chunk.js.map": "/PsyYak/TextRecognizerFromImage/static/js/2.e0deb03a.chunk.js.map",
-    "static/js/3.19d9d8fc.chunk.js": "/PsyYak/TextRecognizerFromImage/static/js/3.19d9d8fc.chunk.js",
-    "static/js/3.19d9d8fc.chunk.js.map": "/PsyYak/TextRecognizerFromImage/static/js/3.19d9d8fc.chunk.js.map",
-    "index.html": "/PsyYak/TextRecognizerFromImage/index.html",
-    "static/css/main.366118b4.chunk.css.map": "/PsyYak/TextRecognizerFromImage/static/css/main.366118b4.chunk.css.map",
-    "static/js/2.e0deb03a.chunk.js.LICENSE.txt": "/PsyYak/TextRecognizerFromImage/static/js/2.e0deb03a.chunk.js.LICENSE.txt"
+    "main.css": "/TextRecognizerFromImage/static/css/main.366118b4.chunk.css",
+    "main.js": "/TextRecognizerFromImage/static/js/main.e6e235ac.chunk.js",
+    "main.js.map": "/TextRecognizerFromImage/static/js/main.e6e235ac.chunk.js.map",
+    "runtime-main.js": "/TextRecognizerFromImage/static/js/runtime-main.4afede72.js",
+    "runtime-main.js.map": "/TextRecognizerFromImage/static/js/runtime-main.4afede72.js.map",
+    "static/js/2.5098d7df.chunk.js": "/TextRecognizerFromImage/static/js/2.5098d7df.chunk.js",
+    "static/js/2.5098d7df.chunk.js.map": "/TextRecognizerFromImage/static/js/2.5098d7df.chunk.js.map",
+    "static/js/3.19d9d8fc.chunk.js": "/TextRecognizerFromImage/static/js/3.19d9d8fc.chunk.js",
+    "static/js/3.19d9d8fc.chunk.js.map": "/TextRecognizerFromImage/static/js/3.19d9d8fc.chunk.js.map",
+    "index.html": "/TextRecognizerFromImage/index.html",
+    "static/css/main.366118b4.chunk.css.map": "/TextRecognizerFromImage/static/css/main.366118b4.chunk.css.map",
+    "static/js/2.5098d7df.chunk.js.LICENSE.txt": "/TextRecognizerFromImage/static/js/2.5098d7df.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e8c60719.js",
-    "static/js/2.e0deb03a.chunk.js",
+    "static/js/runtime-main.4afede72.js",
+    "static/js/2.5098d7df.chunk.js",
     "static/css/main.366118b4.chunk.css",
     "static/js/main.e6e235ac.chunk.js"
   ]
