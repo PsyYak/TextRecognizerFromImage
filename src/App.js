@@ -17,7 +17,6 @@ function App() {
     // if user already uploaded an image beofore, reset the result text & progress bar from screen
     if(result !== ""){
       setResult("");
-
       setProgress(0);
     } 
     console.log("selected file is:"+file);
