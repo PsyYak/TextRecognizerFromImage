@@ -7,11 +7,14 @@ function App() {
   const [progress,setProgress] = useState(0);
   const [language,setlanguage] = useState("eng");
   const [result,setResult] = useState("");
+
+
+
   const onFileChange = (e) => {
     // log the actual file that was uploaded by the user
-   //console.log(e.target.files[0]);
+   console.log("file type is: "+e.target.files[0].type);
    // make sure user using the extenstions we want
-   if(e.target.type !== 'image/jpg' || e.target.type !== 'image/png' || e.target.type !== 'image/jpeg'){
+   if(e.target.files[0].type !== 'image/jpg' || e.target.files[0].type !== 'image/png' || e.target.files[0].type !== 'image/jpeg'){
      alert("Wrong file extention");
      e.target.value = null;
    }else{
