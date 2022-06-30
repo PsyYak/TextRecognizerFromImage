@@ -12,14 +12,8 @@ function App() {
 
   const onFileChange = (e) => {
     // log the actual file that was uploaded by the user
-   console.log("file type is: "+e.target.files[0].type);
-   // make sure user using the extenstions we want
-   if(e.target.files[0].type !== "image/*"){
-     alert("Wrong file extention");
-     e.target.value = null;
-   }else{
-    setFile(e.target.files[0]);
-  }
+   //console.log("file type is: "+e.target.files[0]);
+   setFile(e.target.files[0]);
   };
    // after pressing submit, send the actual file to here
   const processImage = () => {
