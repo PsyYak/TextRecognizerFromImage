@@ -19,8 +19,8 @@ function App() {
       setResult("");
       setProgress(0);
     } 
-    console.log("selected file is:"+file);
-    console.log("selected language is:"+language);
+    //console.log("selected file is:"+file);
+    //console.log("selected language is:"+language);
     //console.log(file);
     Tesseract.recognize(
         file,
