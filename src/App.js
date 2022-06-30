@@ -9,7 +9,7 @@ function App() {
   const [result,setResult] = useState("");
   const onFileChange = (e) => {
     // log the actual file that was uploaded by the user
-   console.log(e.target.files[0]);
+   //console.log(e.target.files[0]);
    // make sure user using the extenstions we want
    if(e.target.type !== 'jpg' || e.target.type !== 'png' || e.target.type !== 'jpeg'){
      alert("Wrong file extention");
