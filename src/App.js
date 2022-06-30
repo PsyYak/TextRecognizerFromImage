@@ -9,8 +9,14 @@ function App() {
   const [result,setResult] = useState("");
   const onFileChange = (e) => {
     // log the actual file that was uploaded by the user
-    //console.log(e.target.files[0]);
+   console.log(e.target.files[0]);
+   // make sure user using the extenstions we want
+   if(e.target.type !== 'jpg' || e.target.type !== 'png' || e.target.type !== 'jpeg'){
+     alert("Wrong file extention");
+     e.target.value = null;
+   }else{
     setFile(e.target.files[0]);
+  }
   };
    // after pressing submit, send the actual file to here
   const processImage = () => {
@@ -37,7 +43,7 @@ function App() {
   }
   return (
     <div className="App">
-      <input type="file" onChange={onFileChange}/>       
+      <input type="file" onChange={onFileChange} accept="image/png, image/jpeg, image/jpg"/>       
               <select value={language} onChange= {(e) => setlanguage(e.target.value)}>
                 <option value="eng">English</option>
                 <option value="heb">Hebrew</option>
